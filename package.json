@@ -1,0 +1,35 @@
+{
+  "name": "blockschemecreator",
+  "version": "1.0.0",
+  "description": "Creating block and block schemes for random purpose.",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www",
+    "buildts": "tsc",
+    "watchts": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukasas/blockschemecreator.git"
+  },
+  "author": "Lukáš Chábek",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "block",
+    "scheme",
+    "creator"
+  ],
+  "bugs": {
+    "url": "https://github.com/Lukasas/blockschemecreator/issues"
+  },
+  "homepage": "https://github.com/Lukasas/blockschemecreator#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "typescript": "^3.3.3333"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"outDir": "public/js",
+		"module": "commonjs"
+	},
+	"include": [
+		"typescript/*"
+	],
+	"exclude": [
+		"public/js/*"
+	]
+}
